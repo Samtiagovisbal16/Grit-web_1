@@ -1,0 +1,21 @@
+.gridContenedor {
+    display: grid;
+    grid-template-columns: auto auto 20%;
+    grid-template-rows: 200px 150px;
+    gap: 10px;
+    background-color: aqua;
+}
+
+.gridContenedor > div {
+    background-color: blue;
+    text-align: center;
+}
+
+.gridItemUno {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.gridItemDos {
+    grid-column: 1 / 3;
+}
